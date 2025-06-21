@@ -1,71 +1,81 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19734715&assignment_repo_type=AssignmentRepo)
-# React.js and Tailwind CSS Assignment
+# 🚀 PLP Task Manager
 
-This assignment focuses on building a responsive React application using JSX and Tailwind CSS, implementing component architecture, state management, hooks, and API integration.
+A modern, professional, and fully responsive React + Vite + Tailwind CSS application for managing tasks and browsing live tech/AI news. Built with best practices, beautiful UI/UX, and ready for deployment.
 
-## Assignment Overview
+[![Netlify Status](https://api.netlify.com/api/v1/badges/demo-badge/deploy-status)](https://your-live-link.netlify.app)
 
-You will:
-1. Set up a React project with Vite and Tailwind CSS
-2. Create reusable UI components
-3. Implement state management using React hooks
-4. Integrate with external APIs
-5. Style your application using Tailwind CSS
+**Live Demo:** [https://your-live-link.netlify.app](https://your-live-link.netlify.app)
 
-## Getting Started
+---
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Install dependencies:
+## ✨ Features
+- Add, edit, complete, and delete tasks with priorities and due dates
+- Bulk actions: mark all as completed, delete all completed
+- Persistent storage with localStorage
+- Fetch and search live tech/AI news (with loading, error, and empty states)
+- Pagination, search, and beautiful card/grid layouts
+- Animated transitions, toasts, confirmation dialogs, and scroll-to-top
+- Fully responsive, dark/light mode, and accessible
+- Custom scrollbars, focus rings, and global feedback
+
+## 🛠️ Getting Started
+
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/your-username/your-repo.git
+   cd your-repo
    ```
+2. **Install dependencies:**
+   ```bash
    npm install
    ```
-4. Start the development server:
-   ```
+3. **Run locally:**
+   ```bash
    npm run dev
    ```
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
+5. **Preview production build:**
+   ```bash
+   npm run preview
+   ```
 
-## Files Included
+## 🌐 Deployment (Netlify)
+- Build command: `npm run build`
+- Publish directory: `dist`
+- For SPA routing, add a `_redirects` file to `public/` or `dist/` with:
+  ```
+  /*    /index.html   200
+  ```
+- Drag and drop the `dist` folder to Netlify, or connect your GitHub repo.
 
-- `Week3-Assignment.md`: Detailed assignment instructions
-- Starter files for your React application:
-  - Basic project structure
-  - Pre-configured Tailwind CSS
-  - Sample component templates
-
-## Requirements
-
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Code editor (VS Code recommended)
-
-## Project Structure
-
+## 📁 Project Structure
 ```
 src/
-├── components/       # Reusable UI components
-├── pages/           # Page components
-├── hooks/           # Custom React hooks
-├── context/         # React context providers
-├── api/             # API integration functions
-├── utils/           # Utility functions
-└── App.jsx          # Main application component
+  components/    # Reusable UI components
+  pages/         # Page components
+  api/           # API integration
+  context/       # Theme context
+  utils/         # Utility functions
+  assets/        # Static assets (logo, images)
+  App.jsx        # Main app
+  main.jsx       # Entry point
 ```
 
-## Submission
+## 📸 Screenshots
+> Add screenshots of your app here for a professional touch!
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+## 📚 Tech Stack
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Netlify](https://netlify.com/)
 
-1. Complete all required components and features
-2. Implement proper state management with hooks
-3. Integrate with at least one external API
-4. Style your application with Tailwind CSS
-5. Deploy your application and add the URL to your README.md
+## 🧑‍💻 Author
+- [Your Name](https://github.com/your-username)
 
-## Resources
-
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-- [Vite Documentation](https://vitejs.dev/guide/)
-- [React Router Documentation](https://reactrouter.com/) 
+## 📄 License
+This project is licensed under the MIT License.

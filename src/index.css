@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fade-in {
+  animation: fadeIn 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.7s cubic-bezier(0.4,0,0.2,1);
+}
+
+/* Custom scrollbar for accent color */
+::-webkit-scrollbar {
+  width: 10px;
+  background: #e0e7ef;
+}
+::-webkit-scrollbar-thumb {
+  background: #3b82f6;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563eb;
+}
+
+/* Selection color */
+::selection {
+  background: #3b82f6;
+  color: #fff;
+}
+
+/* Focus ring for accessibility */
+:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+}

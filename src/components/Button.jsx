@@ -9,7 +9,7 @@ import PropTypes from 'prop-types';
  * @param {boolean} props.disabled - Whether the button is disabled
  * @param {function} props.onClick - Click handler function
  * @param {React.ReactNode} props.children - Button content
- * @returns {JSX.Element} - Button component
+ * @returns {JSX.Element} - Button component 
  */
 const Button = ({ 
   variant = 'primary', 
