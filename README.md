@@ -3,9 +3,9 @@
 
 A modern, professional, and fully responsive React + Vite + Tailwind CSS application for managing tasks and browsing live tech/AI news. Built with best practices, beautiful UI/UX, and ready for deployment.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/demo-badge/deploy-status)](https://your-live-link.netlify.app)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/demo-badge/deploy-status)](https://plp.netlify.app)
 
-**Live Demo:** [https://your-live-link.netlify.app](https://your-live-link.netlify.app)
+**Live Demo:** [https://your-live-link.netlify.app](https://plp.netlify.app)
 
 ---
 
