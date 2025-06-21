@@ -66,7 +66,8 @@ src/
 ```
 
 ## 📸 Screenshots
-> Add screenshots of your app here for a professional touch!
+![task manager](src/assets/taskmanager.png)
+![live news](<src/assets/live news.png>)
 
 ## 📚 Tech Stack
 - [React](https://react.dev/)
@@ -75,7 +76,4 @@ src/
 - [Netlify](https://netlify.com/)
 
 ## 🧑‍💻 Author
-- [Your Name](https://github.com/your-username)
-
-## 📄 License
-This project is licensed under the MIT License.
+- [Your Name](https://github.com/Scylla8434)
